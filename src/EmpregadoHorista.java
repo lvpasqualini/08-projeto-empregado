@@ -15,7 +15,7 @@ public class EmpregadoHorista extends Empregado {
         DecimalFormat df = new DecimalFormat("#,##0.00");
         String aux = super.getDados();
         aux += "Total de horas trabalhadas: " + totalDeHorasTrabalhadas + "\n";
-        aux += "Valor da hora trabalhada: " + df.format(valorDaHoraTrabalhada);
+        aux += "Valor da hora trabalhada: " + df.format(valorDaHoraTrabalhada)+"\n";
         return aux;
     }
 

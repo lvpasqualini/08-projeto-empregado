@@ -15,7 +15,7 @@ public class EmpregadoComissionado extends Empregado {
         DecimalFormat df = new DecimalFormat("#,##0.00");
         String aux = super.getDados();
         aux += "Total de vendas R$ " +df.format(totalDeVendas) +"\n";
-        aux += "Comissão: " + df.format(comissao) + "%";
+        aux += "Comissão: " + df.format(comissao) + "%\n";
         return aux;
     }
 
